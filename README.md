@@ -1,1 +1,1 @@
-Create, Read, Delete App using JavaScript as well as some HTML & CSS.
+Create, Read, Delete App using JavaScript, HTML & CSS.
