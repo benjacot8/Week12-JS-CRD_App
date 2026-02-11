@@ -1,0 +1,6 @@
+{
+  "tasks": [
+    { "id": 1, "title": "Learn Fetch API" },
+    { "id": 2, "title": "Build CRUD App" }
+  ]
+}

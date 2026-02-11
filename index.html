@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 12 Project: Create, Read, Delete App</title>
+  <meta charset="UTF-8" />
+  <title>Create, Read, Update, Delete App</title>
+
+  <!-- Link to Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Link to CSS-->
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    
+
+<!-- Body of HTML-->
+<body class="bg-light">
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">CRUD Task App</h1>
+
+    <!-- Create Form -->
+    <form id="task-form" class="d-flex gap-2 mb-4">
+      <input
+        type="text"
+        id="title"
+        class="form-control"
+        placeholder="New task..."
+        required
+      />
+      <button class="btn btn-primary">Add</button>
+    </form>
+
+    <!-- Task List -->
+    <ul id="task-list" class="list-group"></ul>
+  </div>
+
+  <script src="app.js"></script>
 </body>
 </html>
+

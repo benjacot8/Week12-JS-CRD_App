@@ -1,1 +1,8 @@
-/* CSS Stylesheet for web application */
+body {
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  font-weight: 600;
+}
+
